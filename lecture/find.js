@@ -37,3 +37,5 @@ function postForComment(posts, comment) {
     return post.id === comment.postId;
   });
 }
+
+//findの使いどころ：一覧をクリックすると詳細ページに飛ぶみたいな
